@@ -20,7 +20,7 @@
 
 
 __Input:__
-```
+```html
 HeaderA HeaderB HeaderC
 ValueA1 ValueB1 ValueC1
 ValueA2 ValueB2 ValueC2
@@ -28,7 +28,7 @@ ValueA2 ValueB2 ValueC2
 
 
 __Output:__
-```
+```javascript
 [
 {
 'HeaderA':'ValueA1',
