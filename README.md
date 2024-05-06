@@ -7,8 +7,7 @@
 
 ## INSTRUCTION
 1. Copy the values from a data table (spreadSheet) and paste them into the textarea.
-2. Make sure the input values are in the required format (Click _Help_ on the App screen):
-   
+2. Make sure the input values are in the right format.
 > [!WARNING]
 > - On Row 1 are headers
 > - The next row are values.
