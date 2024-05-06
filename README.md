@@ -33,7 +33,7 @@ __Output:__
 ]
 ```
 ## Credits
-Let me show the [credits](https://kietpawpan.github.io/credit/) as a list of white text moving up on the black screen, like a film closing (:
+[credits](https://kietpawpan.github.io/credit/), a film closing style.
 
 > [!NOTE]
 > Inspired by Jeff Baker at [https://www.seabreezecomputers.com/excel2array/](https://www.seabreezecomputers.com/excel2array/)
