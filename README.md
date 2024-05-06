@@ -33,7 +33,7 @@ __Output:__
 ]
 ```
 ## Credits
-[Full List](https://kietpawpan.github.io/credit/)
+[White text flowing up on the black screen like a film closing](https://kietpawpan.github.io/credit/)
 
 > [!NOTE]
 > Inspired by Jeff Baker at [https://www.seabreezecomputers.com/excel2array/](https://www.seabreezecomputers.com/excel2array/)
