@@ -34,4 +34,4 @@ __Output:__
 [https://kietpawpan.github.io/credit/](https://kietpawpan.github.io/credit/)
 
 > [!NOTE]
-> Inspired by
+> Inspired by Jeff Baker at [https://www.seabreezecomputers.com/excel2array/](https://www.seabreezecomputers.com/excel2array/)
