@@ -9,7 +9,7 @@
 1. Copy the values from a data table (spreadSheet) and paste them into the textarea.
 2. Make sure the input values are in the right format:
 > [!WARNING]
-> - On Row 1 are header text (variable names)
+> - On Row 1 are headers (variable names)
 > - The next row are values.
 > - Use a space to divide columns.
 > - Values must be space-free.
