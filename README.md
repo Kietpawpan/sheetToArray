@@ -1,5 +1,5 @@
 # Sheet to JavaScript Array
-> [Sheet to JavaScript Array](https://kietpawpan.github.io/sheetToArray/) is a web app for converting a dataset into a javaScript array.
+> [Sheet to JavaScript Array](https://kietpawpan.github.io/sheetToArray/) is a web app for converting a column-row dataset into a javaScript array.
 
 ![User Interface](https://Kietpawpan.github.io/sheetToArray/img/IMG_5571.jpeg)
 
