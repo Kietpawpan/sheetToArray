@@ -46,7 +46,7 @@ __Output:__
 ```mermaid
 flowchart LR
 
-A[Spreadsheet] -->|Copied| B(Paste)
+A[Spreadsheet] -->|Copied & Pasted| B(Sheet to javaScript Array App)
 B --> C{Format is O.K.?}
 C -->|Yes| D[javaScript Array]
 C -->|No| E[Blank Output]
