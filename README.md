@@ -9,7 +9,7 @@ A web application for converting table values into a javaScript array.
 2. Make sure the input values are in the required format. (Click _Help_ on the App screen).
 3. Click the __`To javaScript Array`__ button. 
 
-__Sample Input:__
+__Input:__
 ```
 HeaderA HeaderB HeaderC
 ValueA1 ValueB1 ValueC1
