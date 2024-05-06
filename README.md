@@ -1,10 +1,10 @@
 # Sheet to JavaScript Array
 A web application for converting table values into a javaScript array.
 
-## DEMO
+## PROGRAM
 [Sheet to JavaScript Array](https://kietpawpan.github.io/sheetToArray/)
 
-## MANUAL
+## INSTRUCTION
 1. Copy the values from a data table (spreadSheet) and paste them into the textarea.
 2. Make sure the input values are in the required format. (Click _Help_ on the App screen).
 3. Click the __`To javaScript Array`__ button. 
