@@ -33,7 +33,7 @@ __Output:__
 ]
 ```
 ## Credits
-[https://kietpawpan.github.io/credit/](https://kietpawpan.github.io/credit/)
+[Full List](https://kietpawpan.github.io/credit/)
 
 > [!NOTE]
 > Inspired by Jeff Baker at [https://www.seabreezecomputers.com/excel2array/](https://www.seabreezecomputers.com/excel2array/)
