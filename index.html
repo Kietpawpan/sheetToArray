@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=yes;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <center>
+      <div class="header-container">
+        <div class="header-text">Table to JavaScript Array</div>
+      </div>
+      <form>
+        <textarea id="cell" style="height:500px;position:relative;font-size:22px;width:98%;">วิชา การบ้าน กำหนดส่ง ภาพ Status
+ภาษาไทย คัดไทย เดือนนี้ https://www.google.com no
+</textarea>
+        <br />
+        <button type="button" id="add" class="btn btn-primary">To javaScript Array</button>
+        <button type="button" onclick="copyCode()" class="btn btn-success">Copy</button>
+        <button type="button" onclick="clearText()" class="btn btn-danger">Clear</button>
+        <br />
+      </form>
+      <div style="font-size:12px;position:relative;margin-top:50px;margin-bottom:10px;"> &copy; 2024 jTech (Thailand), MIT License <span onclick="help()">| Help </span> | <span onclick="window.open('https://kietpawpan.github.io/credit/')">Credits</span></div>
+      </div>
+      <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+      <script>
+        $(document).ready(function() {
+          $("#add").click(function() {
+            var m = [];
+            var data = [];
+            var code = [];
+            var cell = $("#cell").val().split('\n');
+            var header = cell[0].split(" ");
+            for (let i = 1; i < cell.length - 1; i++) {
+              m[i] = cell[i].split(" ");
+              for (j = 0; j < header.length; j++) {
+                if (j == 0) {
+                  data[i] = "\n{\n'" + header[j] + "':'" + m[i][j] + "'";
+                  code.push(data[i]);
+                } else if (j + 1 == header.length) {
+                  data[i] = "\n'" + header[j] + "':'" + m[i][j] + "'\n}";
+                  code.push(data[i]);
+                } else {
+                  data[i] = "\n'" + header[j] + "':'" + m[i][j] + "'";
+                  code.push(data[i]);
+                }
+              }
+            }
+            document.getElementById("cell").value = code;
+          });
+        });
 
+        function copyCode() {
+          const element = document.querySelector("#cell");
+          element.select();
+          element.setSelectionRange(0, 99999);
+          document.execCommand('copy');
+          element.setSelectionRange(0, 0);
+          window.alert("Copied!");
+        }
+
+        function clearText() {
+          const element = document.querySelector("#cell");
+          element.select();
+          element.setSelectionRange(0, 99999);
+          document.execCommand('delete');
+          element.setSelectionRange(0, 0);
+        }
+
+        function help() {
+          alert("INPUT DATA\nOn Row 1 are headers.\nThe next row values.\nSpaces divide columns.\nValues be space-free.\nNo space on borders.\nPress Enter at the last row ending.");
+        }
+      </script>
+  </body>
+</html>
