@@ -33,7 +33,7 @@ __Output:__
 ]
 ```
 ## Credits
-[credits](https://kietpawpan.github.io/credit/), a film closing style.
+[Credits](https://kietpawpan.github.io/credit/): a film closing style
 
 > [!NOTE]
 > Inspired by Jeff Baker at [https://www.seabreezecomputers.com/excel2array/](https://www.seabreezecomputers.com/excel2array/)
