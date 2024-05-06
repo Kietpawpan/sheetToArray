@@ -1,5 +1,5 @@
 # Sheet to JavaScript Array
-[img](https://Kietpawpan.github.io/sheetToArray/img/IMG_5571.jpeg)
+![User Interface](https://Kietpawpan.github.io/sheetToArray/img/IMG_5571.jpeg)
 A web application for converting table values into a javaScript array.
 
 
