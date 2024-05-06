@@ -1,6 +1,6 @@
 # Sheet to JavaScript Array
 A web application for converting table values into a javaScript array.
-$${\color{red}Red}$$
+$${\color{blue}Treat each row as an array.}$$
 
 ## DEMO
 [Sheet to JavaScript Array](https://kietpawpan.github.io/sheetToArray/)
