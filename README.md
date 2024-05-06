@@ -17,7 +17,10 @@
    > - No space on borders.
    > - Press Enter at the last row ending (The cursor must be at the first space on the row after the last row).
    
-4. Click the __`To javaScript Array`__ button. 
+4. Click the __`To javaScript Array`__ button.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
 
 __Input:__
 ```
