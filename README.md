@@ -42,7 +42,7 @@ __Output:__
 }
 ]
 ```
-## Credits
+## CREDITS
 [Credits](https://kietpawpan.github.io/credit/)--a film closing style
 
 > [!NOTE]
