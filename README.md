@@ -7,7 +7,7 @@ A web application for converting table values into a javaScript array.
 ## MANUAL
 1. Copy the values from a data table (spreadSheet) and paste them into the textarea.
 2. Make sure the input values are in the required format. (Click _Help_ on the App screen).
-3. Click the "__To javaScript Array__" button.<mark style="background-color: lightblue">Marked text</mark>
+3. Click the "__To javaScript Array__" button. <mark style="background-color: lightblue">Marked text</mark>
 
 __Sample Input:__
 ```
