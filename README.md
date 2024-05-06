@@ -1,7 +1,7 @@
 # Sheet to JavaScript Array
 A web application for converting table values into a javaScript array.
 
-## PROGRAM
+## DEMO
 [Sheet to JavaScript Array](https://kietpawpan.github.io/sheetToArray/)
 
 ## INSTRUCTION
