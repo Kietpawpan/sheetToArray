@@ -9,12 +9,12 @@
 1. Copy the values from a data table (spreadSheet) and paste them into the textarea.
 2. Make sure the input values are in the required format (Click _Help_ on the App screen):
    > [!WARNING]
-   > - On Row 1 are headers
-   > - The next row are values.
-   > - Use a space to divide columns.
-   > - Values must be space-free.
-   > - No space on borders.
-   > - Press Enter at the last row ending (The cursor must be at the first space on the row after the last row).
+   > On Row 1 are headers
+   > The next row are values.
+   > Use a space to divide columns.
+   > Values must be space-free.
+   > No space on borders.
+   > Press Enter at the last row ending (The cursor must be at the first space on the row after the last row).
 4. Click the __`To javaScript Array`__ button. 
 
 __Input:__
