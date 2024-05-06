@@ -47,7 +47,7 @@ __Output:__
 flowchart LR
 
 A[Spreadsheet] -->|Copied| B(Paste)
-B --> C{Format O.K.}
+B --> C{Format is O.K.?}
 C -->|Yes| D[javaScript Array]
 C -->|No| E[Blank Output]
 ```
