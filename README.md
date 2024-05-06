@@ -17,7 +17,16 @@ ValueA2 ValueB2 ValueC2
 
 __Output:__
 ```
-HeaderA HeaderB HeaderC
-ValueA1 ValueB1 ValueC1
-ValueA2 ValueB2 ValueC2
+[
+{
+'HeaderA':'ValueA1',
+'HeaderB':'ValueB1',
+'HeaderC':'ValueC1'
+},
+{
+'HeaderA':'ValueA2',
+'HeaderB':'ValueB2',
+'HeaderC':'ValueC2'
+}
+]
 ```
